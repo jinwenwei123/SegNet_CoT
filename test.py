@@ -103,11 +103,3 @@ def outputImage(image_name):
     output_image = Image.fromarray(color_image)
     output_image.show()  # 显示图像
     output_image.save(os.path.join(model_opt['predictions_path'], image_name))  # 保存图像
-
-
-"""
-SegNet:
-avg_loss: 1.6443 , accuracy: 74.65% , miou: 0.1379
-SegNet_Attention:
-avg_loss: 1.4488 , accuracy: 73.24% , miou: 0.2548  
-"""
