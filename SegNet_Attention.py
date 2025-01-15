@@ -1,7 +1,7 @@
 import torch
 from torch import nn
 from torch.nn import functional as F
-from CoTAttention import CoTAttention  # 假设 CoTAttention 定义在一个单独文件
+from CoTAttention import CoTAttention  
 
 
 class Encoder(nn.Module):
